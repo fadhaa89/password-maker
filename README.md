@@ -1,10 +1,9 @@
 # Name 
 Fadhaa's password maker
 # requirments 
-
+password is displayed in an alert or written to the page of the browser
 # description 
-this 
-
+ password based on user inputed criteria and password length.
 # install
 clone the repo
 # example 
@@ -13,6 +12,7 @@ clone the repo
 # how to join it 
 the linces is under MIT 
 # deployed
-
+https://github.com/fadhaa89/password-maker
 # repo
+ https://fadhaa89.github.io/password-maker/
 
