@@ -102,3 +102,21 @@ const promptPasswordLength = () => {
     promptPasswordLength();
   }
 };
+
+// Randomly selects a member of the userChoices array
+const randomUserChoices = () => {
+    let mergedChoices = criteria.userChoices.flat(1);
+    return mergedChoices[Math.floor(Math.random() * mergedChoices.length)]
+  };
+  
+  
+  // Generates the password based on passwordLength
+  const generatePassword = () => {
+    let newPassword = [];
+  
+    for (i = 0; i < criteria.passwordLength; i++) {
+      newPassword.push(randomUserChoices());
+    }
+  
+    return newPassword.join('');
+  }; 
